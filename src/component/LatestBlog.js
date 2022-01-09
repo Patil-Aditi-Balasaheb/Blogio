@@ -4,10 +4,10 @@ function LatestBlog(props) {
     return (
         <a className='blogcard' href={'/detail/' + props.blogId}>
             <div className='row'>
-                <div className='col-8 col-lg-8'>
+                <div className='col-12 col-lg-8 col-md-8'>
                     <img className="blogCardImg" src={props.img} alt='scenary' />
                 </div> 
-                <div className="col-4 col-lg-4">
+                <div className="col-12 col-lg-4 col-md-4">
                     <div className="row">
                         <div className="col-12">
                             <h1>
