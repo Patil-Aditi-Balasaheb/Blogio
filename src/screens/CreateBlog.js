@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import axios from 'react'
+import axios from 'axios'
 import { useHistory } from 'react-router-dom'
 
 function CreateBlog() {
@@ -35,7 +35,7 @@ function CreateBlog() {
                 (res) => {
                     // console.log("Data uploaded successfully")
                     // console.log(res)
-
+                    console.log(res)
                     setTitle("")
                     setContent("")
                     setImage(null)
